@@ -11,3 +11,6 @@ twitter_username: abeuchitelle
 
 # Build settings
 markdown: kramdown
+permalink: "/:title/"
+paginate: 10
+paginate_path: "/:num"
