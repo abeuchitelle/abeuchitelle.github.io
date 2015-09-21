@@ -6,11 +6,6 @@
   width:70%;
   float:right;
 
-  @include media-query($on-laptop) {
-    width:66%;
-    padding-left:2%;
-  }
-
   @include media-query($on-palm) {
     width:96%;
     padding:2%;
@@ -43,6 +38,10 @@
   padding:2% 2% 0% 0%;
   text-align:right;
 
+  @include media-query($on-laptop) {
+    padding:2% 2% 0% 2%;
+  }
+
   @include media-query($on-palm) {
     width:96%;
     padding:2%;
@@ -50,8 +49,20 @@
 
  .logo {
     height:250px;
+
+    @include media-query($on-palm) {
+      height:50px;
+      text-align: left;
+      float:left;
+      display: inline;
+    }
+
     img {
       margin-top:10px;
+
+      @include media-query($on-palm) {
+        display:none;
+      }
     }
   }
 
