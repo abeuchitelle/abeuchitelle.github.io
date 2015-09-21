@@ -11,14 +11,12 @@
 }
 
 .site-title {
-    font-size: 26px;
-    line-height: 56px;
-    letter-spacing: -1px;
+    font-size: 30px;
     margin-bottom: 0;
-    float: left;
+    font-weight: bold;
+    line-height:32px;
 
-    &,
-    &:visited {
+    & {
         color: $grey-color-dark;
     }
 }
@@ -92,8 +90,8 @@
  * Site footer
  */
 .site-footer {
-    border-top: 1px solid $grey-color-light;
     padding: $spacing-unit 0;
+    text-align: right;
 }
 
 .footer-heading {
@@ -161,10 +159,6 @@
 /**
  * Page content
  */
-.page-content {
-    padding: $spacing-unit 0;
-}
-
 .page-heading {
     font-size: 20px;
 }
@@ -185,7 +179,8 @@
 
 .post-link {
     display: block;
-    font-size: 24px;
+    font-size: 26px;
+    font-weight:bold;
 }
 
 
@@ -198,12 +193,13 @@
 }
 
 .post-title {
-    font-size: 42px;
-    letter-spacing: -1px;
-    line-height: 1;
+    font-size: 35px;
+    color: $brand-color;
+    font-weight: bold;
+    margin-bottom:0px;
 
     @include media-query($on-laptop) {
-        font-size: 36px;
+        font-size: 35px;
     }
 }
 
