@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Skills as Inventory"
-date: 2014-1-15
+date: 2014-01-15
 categories:
   - personal-developement
 ---
