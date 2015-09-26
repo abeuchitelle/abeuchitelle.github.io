@@ -3,7 +3,7 @@ layout: post
 title: "Litmus Test Hot Tip: The Front Page Test"
 date: 2013-08-07
 categories:
-  social-media-marketing
+  - social-media-marketing
 ---
 
 <h1>Every Social Media Conversation</h1>
