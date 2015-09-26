@@ -4,6 +4,8 @@ title: "Coding for Exercise"
 date: 2013-10-15
 categories:
   - personal-developement
+  - learning
+  - programming
 ---
 
 There is a range that exists between folks for whom code means a bucket of ones and zeros and those for whom programming is equal parts lifestyle and livelihood. I exist somewhere in the middle, with the novice understanding of ones and zeros still large in my rear-view mirror. For me, code has been a hobby; a way to exercise my brain and get outside of my comfort zone. 
