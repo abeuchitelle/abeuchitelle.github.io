@@ -3,7 +3,7 @@ layout: post
 title: "Skills as Inventory"
 date: 2014-01-15
 categories:
-  - personal-developement
+  - personal-development
 ---
 
 Each of us has something unique, something that only we can provide, and which makes us attractive candidates to work in the employ of others. Much like a business providing a product or service to its customers, we all provide a marketable good. Also much like a business, value is created when we provide it well. But just what is this value built around?
