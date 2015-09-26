@@ -1,6 +1,6 @@
 <div class="categories">
   Posted In:
   {% for category in post.categories %}
-    <a href="/categories/{{ category | prepend: site.baseurl }}">{{ category }}</a>
+    <a href="/category/{{ category | prepend: site.baseurl }}">{{ category }}</a>
   {% endfor %}
 </div>
