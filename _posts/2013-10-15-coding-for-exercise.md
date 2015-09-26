@@ -3,7 +3,7 @@ layout: post
 title: "Coding for Exercise"
 date: 2013-10-15
 categories:
-  - personal-developement
+  - personal-development
   - learning
   - programming
 ---
