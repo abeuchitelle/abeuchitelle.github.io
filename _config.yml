@@ -2,11 +2,8 @@
 title: Abe Uchitelle
 name: Abe Uchitelle
 description: > # this means to ignore newlines
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-
-url: "http://auchitelle.github.io" # the base hostname & protocol for your site
+  The personal website of Abe Uchitelle, SVP of Business Development at DragonSearch. Check in to learn about sales, organizational development, and growth.
+url: "http://abeuchitelle.com" # the base hostname & protocol for your site
 twitter_username: abeuchitelle
 linkedin_username: abeuchitelle
 
@@ -15,3 +12,6 @@ markdown: kramdown
 permalink: "/:title/"
 paginate: 10
 paginate_path: "/:num"
+
+gems:
+  - jekyll-sitemap
