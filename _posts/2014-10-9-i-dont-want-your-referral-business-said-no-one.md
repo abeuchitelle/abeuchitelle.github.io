@@ -3,7 +3,7 @@ layout: post
 title: "I Don't Want Your Referral Business - Said No One Ever"
 date: 2014-10-9
 categories:
-  - business-developement
+  - business-development
   - sales
 ---
 
