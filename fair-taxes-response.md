@@ -114,3 +114,10 @@ The surcharge targets households earning more than four times the county's media
 In the years ahead, communities across New York and beyond will be struggling to carry the burden of the federal tax cuts. Putting this plan into motion now, with state passage in 2026, will ensure that we are prepared to carry that burden.
 
 The Comptroller's concerns about threshold indexing, accountability mechanisms, and broader fiscal strategy all deserve continued dialogue, and the Legislature welcomes that conversation. But they are refinements to a proposal that is well-founded in law, in data, and in the fiscal realities Ulster County faces. **The Fair Taxes Act deserves passage.**
+
+<script>
+document.querySelectorAll('a[href^="http"]').forEach(function(link) {
+  link.setAttribute('target', '_blank');
+  link.setAttribute('rel', 'noopener noreferrer');
+});
+</script>
