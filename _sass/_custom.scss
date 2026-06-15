@@ -3,8 +3,7 @@
 }
 
 .content {
-  width:70%;
-  float:right;
+  width:100%;
 
   @include media-query($on-palm) {
     width:96%;
