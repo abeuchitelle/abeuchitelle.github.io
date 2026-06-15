@@ -2,40 +2,102 @@
 layout: default
 ---
 
-<div class="home">
-  <div class="post-list">
-    {% for post in paginator.posts %}
-      {% include post.html %}
-    {% endfor %}
+<style>
+  .home-centered {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 60px 20px;
+  }
+
+  .home-centered h1 {
+    font-size: 2em;
+    margin: 24px 0 8px;
+    color: #111;
+  }
+
+  .home-centered p {
+    color: #555;
+    font-size: 1.1em;
+    margin: 0 0 32px;
+  }
+
+  .back-btn {
+    display: inline-block;
+    background: #0E8742;
+    color: #fff;
+    border: none;
+    border-radius: 30px;
+    padding: 12px 28px;
+    font-size: 1em;
+    cursor: pointer;
+    letter-spacing: 0.03em;
+    transition: background 0.2s;
+  }
+
+  .back-btn:hover {
+    background: #0a6533;
+  }
+
+  .bike-wrap {
+    animation: float 3s ease-in-out infinite;
+  }
+
+  @keyframes float {
+    0%, 100% { transform: translateY(0); }
+    50%       { transform: translateY(-10px); }
+  }
+</style>
+
+<div class="home-centered">
+  <div class="bike-wrap">
+    <svg width="180" height="120" viewBox="0 0 180 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <!-- rear wheel -->
+      <circle cx="48" cy="80" r="32" stroke="#0E8742" stroke-width="5" fill="none"/>
+      <!-- spokes rear -->
+      <line x1="48" y1="48" x2="48" y2="112" stroke="#0E8742" stroke-width="1.5" opacity="0.4"/>
+      <line x1="16" y1="80" x2="80" y2="80" stroke="#0E8742" stroke-width="1.5" opacity="0.4"/>
+      <line x1="25" y1="57" x2="71" y2="103" stroke="#0E8742" stroke-width="1.5" opacity="0.4"/>
+      <line x1="71" y1="57" x2="25" y2="103" stroke="#0E8742" stroke-width="1.5" opacity="0.4"/>
+      <!-- front wheel -->
+      <circle cx="132" cy="80" r="32" stroke="#0E8742" stroke-width="5" fill="none"/>
+      <!-- spokes front -->
+      <line x1="132" y1="48" x2="132" y2="112" stroke="#0E8742" stroke-width="1.5" opacity="0.4"/>
+      <line x1="100" y1="80" x2="164" y2="80" stroke="#0E8742" stroke-width="1.5" opacity="0.4"/>
+      <line x1="109" y1="57" x2="155" y2="103" stroke="#0E8742" stroke-width="1.5" opacity="0.4"/>
+      <line x1="155" y1="57" x2="109" y2="103" stroke="#0E8742" stroke-width="1.5" opacity="0.4"/>
+      <!-- frame: chain stay rear axle → BB -->
+      <line x1="48" y1="80" x2="90" y2="72" stroke="#333" stroke-width="4" stroke-linecap="round"/>
+      <!-- seat stay rear axle → seat tube top -->
+      <line x1="48" y1="80" x2="82" y2="38" stroke="#333" stroke-width="4" stroke-linecap="round"/>
+      <!-- seat tube -->
+      <line x1="82" y1="38" x2="90" y2="72" stroke="#333" stroke-width="4" stroke-linecap="round"/>
+      <!-- top tube seat → head -->
+      <line x1="82" y1="38" x2="120" y2="36" stroke="#333" stroke-width="4" stroke-linecap="round"/>
+      <!-- down tube head → BB -->
+      <line x1="120" y1="36" x2="90" y2="72" stroke="#333" stroke-width="4" stroke-linecap="round"/>
+      <!-- fork head → front axle -->
+      <line x1="120" y1="36" x2="132" y2="80" stroke="#333" stroke-width="4" stroke-linecap="round"/>
+      <!-- saddle -->
+      <line x1="70" y1="34" x2="90" y2="34" stroke="#555" stroke-width="5" stroke-linecap="round"/>
+      <!-- seat post -->
+      <line x1="82" y1="34" x2="82" y2="42" stroke="#555" stroke-width="3" stroke-linecap="round"/>
+      <!-- handlebar stem -->
+      <line x1="120" y1="36" x2="118" y2="26" stroke="#555" stroke-width="3" stroke-linecap="round"/>
+      <!-- handlebar drop -->
+      <line x1="112" y1="26" x2="124" y2="26" stroke="#555" stroke-width="4" stroke-linecap="round"/>
+      <!-- BB hub dot -->
+      <circle cx="90" cy="72" r="5" fill="#0E8742"/>
+      <!-- rear hub dot -->
+      <circle cx="48" cy="80" r="4" fill="#0E8742"/>
+      <!-- front hub dot -->
+      <circle cx="132" cy="80" r="4" fill="#0E8742"/>
+    </svg>
   </div>
 
-  {% if paginator.total_pages > 1 %}
-    <div class="pagination">
-      {% if paginator.previous_page %}
-        {% if paginator.previous_page_path == "/index.html" %}
-          <a href="/">&laquo; Prev</a>
-        {% else %}
-          <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&laquo; Prev</a>
-        {% endif %}
-      {% else %}
-        <span>&laquo; Prev</span>
-      {% endif %}
-
-      {% for page in (1..paginator.total_pages) %}
-        {% if page == paginator.page %}
-          <em>{{ page }}</em>
-        {% elsif page == 1 %}
-          <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">{{ page }}</a>
-        {% else %}
-          <a href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a>
-        {% endif %}
-      {% endfor %}
-
-      {% if paginator.next_page %}
-        <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Next &raquo;</a>
-      {% else %}
-        <span>Next &raquo;</span>
-      {% endif %}
-    </div>
-  {% endif %}
+  <h1>Hi, I'm Abe.</h1>
+  <p>Nothing to see here — just me and my bike.</p>
+  <button class="back-btn" onclick="history.back()">← Go Back</button>
 </div>
