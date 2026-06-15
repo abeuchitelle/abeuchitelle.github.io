@@ -11,7 +11,7 @@ permalink: /fair-taxes-response/
 
 ## Introduction
 
-On June 9, 2026, Ulster County Comptroller March S. Gallagher published a blog post raising four concerns about the Ulster County Fair Taxes Act (Resolution No. 2026-295). The Comptroller's engagement with the proposal is welcome. Indeed, the Comptroller herself acknowledges that new revenues may be necessary, writing that she "applaud[s] the Executive and the Legislature for considering additional new revenue sources" and that "we may need additional revenues in the 2027 and 2028 budgets or else we could see property tax increases."
+On June 9, 2026, Ulster County Comptroller March S. Gallagher published [a blog post](https://comptroller.ulstercountyny.gov/ulster-county-income-tax-surcharge/) raising four concerns about the [Ulster County Fair Taxes Act](https://www.ulstercountyny.gov/Departments/County-Executive/Fair-Taxes-Act) (Resolution No. 2026-295). The Comptroller's engagement with the proposal is welcome. Indeed, the Comptroller herself acknowledges that new revenues may be necessary, writing that she "applaud[s] the Executive and the Legislature for considering additional new revenue sources" and that "we may need additional revenues in the 2027 and 2028 budgets or else we could see property tax increases."
 
 Despite this acknowledgement, Comptroller Gallagher goes on to provide four criticisms. This memorandum addresses each in turn, drawing on county data, regional migration research, and the National Association of Counties' (NACo) analysis of the federal cost shift now underway.
 
@@ -27,7 +27,7 @@ The Comptroller argues that the surcharge thresholds capture not just the "top 1
 
 ### Response
 
-The Comptroller's framing is misleading. Only 2.4% of Ulster County households would be affected by the surcharge, and the surcharge represents less than 1% of total income for those affected filers. As County Executive Jen Metzger noted, "the median household income in Ulster County is less than a quarter of that" $400,000 threshold. A household earning the county's median income could quadruple their earnings before paying a single dollar under the Fair Taxes Act.
+The Comptroller's framing is misleading. [Only 2.4% of Ulster County households would be affected by the surcharge](https://www.ulstercountyny.gov/Departments/County-Executive/Fair-Taxes-Act), and the surcharge represents less than 1% of total income for those affected filers. As County Executive Jen Metzger noted, "the median household income in Ulster County is less than a quarter of that" $400,000 threshold. A household earning the county's median income could quadruple their earnings before paying a single dollar under the Fair Taxes Act.
 
 And because the thresholds apply to New York taxable income (after deductions), a single filer needs gross income of approximately $231,000 before owing a single dollar under the surcharge. A joint filer needs approximately $451,000 in gross income. The effective entry point is significantly higher than the statutory threshold alone suggests.
 
@@ -47,7 +47,7 @@ The Comptroller acknowledges that "[t]here is a split in the literature about wh
 
 ### Response
 
-The Comptroller's outmigration concern is directly contradicted by the most current data available. Hudson Valley Pattern for Progress analyzed IRS migration data released on March 25, 2026, covering 2021 and 2022. Their finding is unambiguous: **Ulster County was the only county in the entire nine-county Hudson Valley region to gain population from migration** — a net gain of 279 residents. Every other county lost people. The region as a whole experienced a net loss of 10,174 residents.
+The Comptroller's outmigration concern is directly contradicted by the most current data available. [Hudson Valley Pattern for Progress analyzed IRS migration data](https://www.pattern-for-progress.org/wp-content/uploads/2024/07/72024-Migration-In-Migration-Out.pdf) released on March 25, 2026, covering 2021 and 2022. Their finding is unambiguous: **Ulster County was the only county in the entire nine-county Hudson Valley region to gain population from migration** — a net gain of 279 residents. Every other county lost people. The region as a whole experienced a net loss of 10,174 residents.
 
 Ulster County also gained more net income from migration than any other county in the region — $169.2 million in new adjusted gross incomes. The households moving into Ulster County had significantly higher average incomes ($113,328) than those moving out ($79,598). Higher-income households are choosing Ulster County, and lower-income households who would be unaffected by this proposal are the ones being forced out.
 
@@ -67,7 +67,7 @@ The Comptroller argues that the Fair Taxes Act is being considered without adequ
 
 ### Response
 
-The premise of this concern is backwards. The federal fiscal picture is not speculative nor abstract and is the reason the Legislature is acting now. H.R. 1 (the "One Big Beautiful Bill Act") has been enacted and its consequences are quantified and severe. According to analysis from the National Association of Counties:
+The premise of this concern is backwards. The federal fiscal picture is not speculative nor abstract and is the reason the Legislature is acting now. H.R. 1 (the "One Big Beautiful Bill Act") has been enacted and its consequences are quantified and severe. According to [analysis from the National Association of Counties](https://www.naco.org/news/hr-1-reshapes-medicaid-snap-administration-counties):
 
 - Federal cost share for SNAP administration will fall from 50% to 25% starting in FY2027.
 - New York counties could face up to $266 million in new annual SNAP administrative costs.
@@ -77,9 +77,13 @@ The premise of this concern is backwards. The federal fiscal picture is not spec
 
 In fact, in a 2025 presentation the Comptroller herself estimated that the loss of SNAP administrative support and cost sharing benefits would reach almost $7M. Inflation and other economic metrics have increased in 2026, meaning this estimation is potentially low.
 
+*Source: [Comptroller Gallagher's Denning Town Hall on Federal Funds — July 29, 2025](https://comptroller.ulstercountyny.gov/publication/comptroller-gallaghers-denning-town-hall-on-federal-funds/)*
+
+![Screenshot from Comptroller Gallagher's Denning Town Hall presentation on federal funds](/images/fair-taxes-comptroller-screenshot.png)
+
 The Comptroller's blog post specifically cites increased SNAP and Medicaid exposure as the budgetary threat she is most concerned about. She is right to be concerned. But it is not the Legislature acting in a vacuum — it is the Legislature acting directly in response to a concrete, quantified threat that the Comptroller herself has named. The Fair Taxes Act is not being developed without a broader discussion; it is the broader discussion, translated into a specific progressive revenue tool.
 
-The Comptroller's suggestion to examine a real estate transfer tax alongside the Fair Taxes Act is worth taking seriously — yet this proposed alternative fails the very test the Comptroller herself proposes in her earlier criticism regarding who the tax would target. A transfer tax aimed at the top 25% of home sales would need a threshold somewhere between $575,000 and $650,000 based on current Ulster County price distributions. At that level, it would still fall on buyers who are stretching to purchase a home in one of the most difficult mortgage environments in decades. And if the threshold were set lower, at or near the median home price of $440,000, it would hit 50% of all transactions, including first-time buyers and growing families at the closing table. In comparison, the Fair Taxes Act only targets the wealthiest 2.5%.
+The Comptroller's suggestion to examine a real estate transfer tax alongside the Fair Taxes Act is worth taking seriously — yet this proposed alternative fails the very test the Comptroller herself proposes in her earlier criticism regarding who the tax would target. A transfer tax aimed at the top 25% of home sales would need a threshold somewhere between $575,000 and $650,000 based on current Ulster County price distributions. At that level, it would still fall on buyers who are stretching to purchase a home in one of the most difficult mortgage environments in decades. And if the threshold were set lower, at or near the [median home price of $440,000](https://www.dailyfreeman.com/2026/01/31/average-ulster-county-home-sale-price-reaches-450000/), it would hit 50% of all transactions, including first-time buyers and growing families at the closing table. In comparison, the Fair Taxes Act only targets the wealthiest 2.5%.
 
 The Legislature should also be clear about what "waiting for a comprehensive review" actually means in this context. The Fair Taxes Act requires state legislative approval and cannot take effect before 2027 at the earliest. To delay beyond that is not a responsible posture when the federal costs are already in motion, with their full scope being realized in 2028. And county governments cannot cut their way to solvency here. SNAP and Medicaid are mandated services. NACo is explicit: counties delivering these services cannot simply reduce them when federal funding is cut. They must absorb costs, raise local taxes, or allow services to degrade.
 
